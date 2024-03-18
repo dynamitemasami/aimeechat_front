@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961161552655",
+    "project_id": "aimee-2",
+    "storage_bucket": "aimee-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961161552655:android:a730aae960dfe9b5db947a",
+        "android_client_info": {
+          "package_name": "com.example.aimeechat_front"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaq_0xaIt9zHWtvmr568pXXinJ9SoV_pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
