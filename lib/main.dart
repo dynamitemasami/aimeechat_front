@@ -1,7 +1,7 @@
 import 'package:aimeechat_front/screens/splash/spalsh_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 Future<void> main() async {
@@ -92,10 +92,7 @@ class MainApp extends StatelessWidget {
 
         ),
       ),
-      localizationsDelegates: [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
+
       supportedLocales: [
         const Locale("en"),
         const Locale("ja"),

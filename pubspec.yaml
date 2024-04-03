@@ -1,6 +1,7 @@
 name: aimeechat_front
 description: "A new Flutter project."
-
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 
@@ -9,61 +10,46 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.3.0 <4.0.0'
 
-dependencies:
 
+dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-  flutter_dotenv: ^5.0.2
-  flutter_spinkit: ^5.1.0
-  flutter_hooks: ^0.20.5
-  hooks_riverpod: ^2.3.0
-  riverpod_annotation: ^2.0.0
-  sign_in_button: ^3.0.0
-  flutter_picker: ^2.1.0
-  assets_audio_player: ^3.1.1
-  loading_animation_widget: ^1.2.0+4
-  rect_getter:
+  riverpod: ^2.5.1
+  cupertino_icons: ^1.0.6
+  hooks_riverpod: ^2.5.1
+
+  loading_animation_widget: ^1.2.1
   page_transition: ^2.1.0
-  restart_app: ^1.2.1
-  webview_flutter: ^4.4.1
-  url_launcher: ^6.2.1
-  shimmer: ^3.0.0
-  intl: ^0.18.1
-  introduction_screen: ^3.1.12
-  dots_indicator: ^2.1.2
-  audioplayers: ^6.0.0
-  image: ^4.1.7
-  shared_preferences: ^2.2.2
-
-
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.1
-  riverpod_lint: ^2.3.10
-  custom_lint: ^0.6.4
-  riverpod_generator: ^2.0.0
-  google_mobile_ads: ^5.0.0
-  build_runner: ^2.3.3
-  flutter_launcher_icons: ^0.13.1
-  get:
 
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
 
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path_android: "assets/character/icon/icon_candy.png"
-  image_path_ios: "assets/character/icon/candy_ios.png"
-  background_color_ios: "#f8b7c7"
-  adaptive_icon_foreground : "assets/character/icon/icon_candy.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
 
-
-
+# The following section is specific to Flutter packages.
 flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
   uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/top/aimee_logo.png
+    - assets/top/top.gif
+    - assets/google_logo.png
+    - assets/top/apple-logo.png
+    - assets/talk/button_add_friends.png
 
   fonts:
     - family: Noto_Sans_JP
@@ -77,7 +63,3 @@ flutter:
         - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Regular.ttf
         - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-SemiBold.ttf
         - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Thin.ttf
-
-  assets:
-
-    - assets/top/aimee_logo.png
